@@ -1,0 +1,49 @@
+Season,Weather,Fertilize,Hydrate,Sow,Harvest,Action
+Winter,Snow,0,0,0,1,do nothing
+Winter,Snow,0,0,1,0,do nothing
+Winter,Snow,0,1,0,0,do nothing
+Winter,Snow,1,0,0,0,do nothing
+Winter,Cloudy,0,0,0,1,do nothing
+Winter,Cloudy,0,0,1,0,do nothing
+Winter,Cloudy,0,1,0,0,do nothing
+Winter,Cloudy,1,0,0,0,do nothing
+Autumn,Cloudy,0,0,0,1,harvest
+Autumn,Cloudy,0,0,1,0,do nothing
+Autumn,Cloudy,0,1,0,0,do nothing
+Autumn,Cloudy,1,0,0,0,fertilize
+Autumn,Sunny,0,0,0,1,harvest
+Autumn,Sunny,0,0,1,0,Plant
+Autumn,Sunny,0,1,0,0,hydrate
+Autumn,Sunny,1,0,0,0,fertilize
+Autumn,Rainy,0,0,0,1,harvest
+Autumn,Rainy,0,0,1,0,do nothing
+Autumn,Rainy,0,1,0,0,do nothing
+Autumn,Rainy,1,0,0,0,do nothing
+Spring,Sunny,0,0,0,1,harvest
+Spring,Sunny,0,0,1,0,do nothing
+Spring,Sunny,0,1,0,0,hydrate
+Spring,Sunny,1,0,0,0,do nothing
+Spring,Cloudy,0,0,0,1,harvest
+Spring,Cloudy,0,0,1,0,do nothing
+Spring,Cloudy,0,1,0,0,hydrate
+Spring,Cloudy,1,0,0,0,do nothing
+Spring,Rainy,0,0,0,1,harvest
+Spring,Rainy,0,0,1,0,do nothing
+Spring,Rainy,0,1,0,0,do nothing
+Spring,Rainy,1,0,0,0,do nothing
+Spring,Rainy,0,0,0,1,harvest
+Spring,Rainy,0,0,1,0,do nothing
+Spring,Rainy,0,1,0,0,do nothing
+Spring,Rainy,1,0,0,0,do nothing
+Summer,Rainy,0,0,0,1,harvest
+Summer,Rainy,0,0,1,0,do nothing
+Summer,Rainy,0,1,0,0,do nothing
+Summer,Rainy,1,0,0,0,do nothing
+Summer,Sunny,0,0,0,1,harvest
+Summer,Sunny,0,0,1,0,do nothing
+Summer,Sunny,0,1,0,0,hydrate
+Summer,Sunny,1,0,0,0,fertilize
+Summer,Cloudy,0,0,0,1,harvest
+Summer,Cloudy,0,0,1,0,do nothing
+Summer,Cloudy,0,1,0,0,hydrate
+Summer,Cloudy,1,0,0,0,fertilize
