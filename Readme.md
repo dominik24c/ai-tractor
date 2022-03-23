@@ -11,7 +11,7 @@ source activate
 pip3 install -r requirements.txt
 ```
 #### 2.1 Graphviz
-For ubuntu, we probably need to download graphviz library by apt-get
+For ubuntu, we probably need to download graphviz library by apt-get manager
 ```bash
 sudo apt-get install graphviz
 ```
@@ -23,7 +23,7 @@ python3 main.py
 
 ### 4. Arguments
 Maps are saved in maps directory with json format.\
-It's two dimensional array of types of fields. \
+It's two-dimensional array of fields. \
 Example: 
 ```json
 [
