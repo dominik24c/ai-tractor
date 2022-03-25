@@ -60,3 +60,9 @@ It also will be moving by a star algorithm and it will be checking fields using 
 ```bash
 python3 main.py --auto-mode
 ```
+
+#### 5. Tractor simulator
+
+![Screenshot](screenshots/tractor1.png)
+
+![Screenshot](screenshots/tractor.png)
