@@ -22,15 +22,11 @@ class PriorityItem:
 class AStar(Graphsearch):
     @staticmethod
     def convert_queue_of_priority_items_to_list(q: Queue[PriorityItem], *args) -> list:
-        items = []
-        [items.append((i.node.get_x(), i.node.get_y(), i.node.get_direction(), *args)) for i in q.queue]
-        return items
+        return [(i.node.get_x(), i.node.get_y(), i.node.get_direction(), *args) for i in q.queue]
 
     @staticmethod
     def convert_queue_of_priority_items_with_priority_to_list(q: Queue[PriorityItem], *args) -> list:
-        items = []
-        [items.append((i.node.get_x(), i.node.get_y(), i.node.get_direction(), i.priority, *args)) for i in q.queue]
-        return items
+        return [(i.node.get_x(), i.node.get_y(), i.node.get_direction(), i.priority, *args) for i in q.queue]
 
     @staticmethod
     def replace_node_in_fringe_queue(fringe: PriorityQueue[PriorityItem], state) -> None:

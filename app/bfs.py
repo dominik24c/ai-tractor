@@ -33,12 +33,8 @@ class Bfs(Graphsearch):
 
             for (action, state) in succ(copied_item, board):
                 # print(state)
-                fringe_items = []
-                explored_items = []
-                [fringe_items.append((i.get_x(), i.get_y(), i.get_direction()))
-                 for i in fringe.queue]
-                [explored_items.append((i.get_x(), i.get_y(), i.get_direction()))
-                 for i in explored.queue]
+                fringe_items = [(i.get_x(), i.get_y(), i.get_direction()) for i in fringe.queue]
+                explored_items = [(i.get_x(), i.get_y(), i.get_direction()) for i in explored.queue]
                 if state[:-1] not in fringe_items and state[:-1] not in explored_items:
                     n = Node(item, *state, *action)
                     fringe.put(n)

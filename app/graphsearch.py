@@ -50,9 +50,7 @@ class Node:
 class Graphsearch:
     @staticmethod
     def convert_queue_of_nodes_to_list(q: Queue[Node], *args) -> list:
-        items = []
-        [items.append((i.get_x(), i.get_y(), i.get_direction(), *args)) for i in q.queue]
-        return items
+        return [(i.get_x(), i.get_y(), i.get_direction(), *args) for i in q.queue]
 
     @staticmethod
     def succ(item: Node, board: Board) -> list:
